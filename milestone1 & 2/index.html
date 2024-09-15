@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="heading"><strong>Milestone 1 Static Resume Builder</strong></div>
+<div class="mainn">
+    <form id="Resumeform">
+        <div class="personal"></strong>personal Info</strong></div>
+        <label for="picture" class="inputname" id="upload"><strong>Upload Picture</strong></label>
+        <input type="file" name="picture" id="picture"
+        class="forpic" accept="image"><br><br>
+
+        <label for="name" class="inputname"><strong>Name:</strong></label>
+        <input type="text" id="name" name="name" required> <br>
+        <br>
+
+        <label for="email" class="inputname"></strong>Email:</strong></label> 
+        <input type="email" name="email" id="email" required> <br>
+        <br>
+
+        <label for="phone" class="inputname"><strong>phone Number:</strong></label>
+        <input type="tel" name="phone" id="phone" required> <br>
+        <br>
+
+        <label for="address" class="inputname"></strong>Address:</strong></label>
+        <input type="text" name="address" id="address" required> <br>
+        <br>
+
+    <div class="personal"><strong>Skills</strong></div>    
+    <label for="skills" class="inputname"><strong>Skills:</strong></label>
+    <input type="text" name="skills" id="Skills" required> <br><br>
+
+    <div class="personal"><strong>Education</strong></div>
+    <label for="education" class="inputname"><strong>Education:</strong></label>
+    <textarea name="education" id="education" recuired></textarea><br><br>
+
+    <div class="personal">Experiance</div>
+    <label for="experiance" class="inputname"><strong>Work Experiance:</strong></label>
+    <textarea name="experiance" id="experiance" required></textarea><br><br>
+
+    <input type="submit" class="inputname" value="Generate Resume">
+
+</form>    
+</div>
+        
+</body>
+</html>
